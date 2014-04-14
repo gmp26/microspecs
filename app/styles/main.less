@@ -1,0 +1,189 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+/* Put your CSS here */
+html, body {
+  margin: 10px 0;
+}
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.container.ng-scope {
+  margin-left: 0px;
+}
+
+.picker {
+  display: inline-block;
+}
+
+svg {
+    background-color: white;
+}
+
+.smalldot {
+  stroke-linecap:round;
+  stroke-width: 5;
+  stroke: black;
+  opacity: 1;
+}
+
+.circle {
+    stroke-linecap:round;
+    opacity:0.2;
+    stroke-width:25;
+    stroke: #888;
+    stroke-linecap: round;
+}
+.circle:hover {
+    //stroke-width:12;
+    stroke-width: 30;
+    opacity: 1;
+    stroke: black;
+    cursor:pointer;
+}
+.circle.lit {
+  stroke: #fa0;
+  stroke-width:30;
+  opacity:1;
+}
+.circle.line-lit {
+  pointer-events: none;
+  stroke: @brand-primary;
+  stroke-width:30;
+  opacity:0.8;
+}
+.circle.poly-lit {
+  pointer-events: none;
+  stroke: @brand-success;
+  stroke-width:30;
+  opacity:0.8;
+}
+
+.circle.poly-open {
+  pointer-events: none;
+  stroke: @brand-warning;
+  stroke-width:30;
+  opacity:0.8;
+}
+
+
+.thin-line {
+    stroke: black; //lighten(@brand-primary, 20%);
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-opacity: 1;
+}
+.thin-line:hover {
+  stroke-width: 10;
+  cursor: pointer;
+}
+
+.polygon {
+    fill: #5588dd;
+    fill-opacity:0.75;
+    stroke: #555;
+    stroke-width: 5;
+    stroke-opacity: 0.75;
+}
+
+@fill0: #5588dd;
+@fill1: spin(@fill0, 137.5);
+@fill2: spin(@fill1, 137.5);
+@fill3: spin(@fill2, 137.5);
+@fill4: spin(@fill3, 137.5);
+@fill5: spin(@fill4, 137.5);
+@fill6: spin(@fill5, 137.5);
+@fill7: spin(@fill6, 137.5);
+
+.polyfill0 {
+  .polygon();
+  fill: @fill0;
+}
+
+.polyfill1 {
+  .polygon();
+  fill: @fill1;
+}
+
+.polyfill2 {
+  .polygon();
+  fill: @fill2;
+}
+
+.polyfill3 {
+  .polygon();
+  fill: @fill3;
+}
+
+.polyfill4 {
+  .polygon();
+  fill: @fill4;
+}
+
+.polyfill5 {
+  .polygon();
+  fill: @fill5;
+}
+
+.polyfill6 {
+  .polygon();
+  fill: @fill6;
+}
+
+.polyfill7 {
+  .polygon();
+  fill: @fill7;
+}
+
+
+.camera {
+    stroke: @brand-info;
+    stroke-width: 30;
+    stroke-linecap: round;
+    stroke-opacity: 1;    
+}
+
+.opaque {
+  stroke: @brand-danger;
+  fill-opacity:1.0;
+  stroke-opacity: 2.0;
+}
+
+.inside {
+    stroke: red;    
+}
+
+.visipoly {
+    fill:lighten(@brand-success, 20%);
+    fill-opacity:0.4;
+    stroke:white;
+    stroke-width:1;
+    stroke-opacity:1;
+    pointer-events: none;
+}
+.visipoly.selected {
+    fill:lighten(@brand-danger, 10%);
+    fill-opacity:0.8;
+}
+
+.toolControls {
+  display:inline-block;
+  width:100%;
+  max-width: 700px;
+  padding-bottom:10px;
+}
+
+.dotty-grid {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.fa {
+  font-size: 100%;
+}
+
+
+

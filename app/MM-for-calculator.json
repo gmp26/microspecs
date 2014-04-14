@@ -1,0 +1,721 @@
+[{
+    "Event": "Non-natural cause",
+    "Tags": "non-natural",
+    "Unit": "day",
+    "Micromorts": "1",
+    "Context": "England and Wales",
+    "Period": "2009",
+    "Deaths": 49,
+    "Population": "54808000",
+    "Link": "http://www.ons.gov.uk/ons/publications/re-reference-tables.html?edition=tcm%3A77-199137"
+}, {
+    "Event": "All causes",
+    "Tags": "all",
+    "Unit": "day",
+    "Micromorts": "",
+    "Context": "England and Wales",
+    "Period": "",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Accident at birth",
+    "Tags": "Infant",
+    "Unit": "births",
+    "Micromorts": "279",
+    "Context": "England and Wales",
+    "Period": "2010",
+    "Deaths": 202,
+    "Population": "723000",
+    "Link": ""
+}, {
+    "Event": "\"Unexplained deaths in infancy\"",
+    "Tags": "Infant",
+    "Unit": "first year of life",
+    "Micromorts": "386",
+    "Context": "England and Wales",
+    "Period": "2010",
+    "Deaths": 279,
+    "Population": "723000",
+    "Link": ""
+}, {
+    "Event": "Infant mortality - all causes",
+    "Tags": "Infant",
+    "Unit": "first year of life",
+    "Micromorts": "4300",
+    "Context": "England and Wales",
+    "Period": "2010",
+    "Deaths": 4.3,
+    "Population": "1000",
+    "Link": ""
+}, {
+    "Event": "Murder/homicide",
+    "Tags": "Crime",
+    "Unit": "year",
+    "Micromorts": "14",
+    "Context": "England and Wales",
+    "Period": "2010",
+    "Deaths": 13.5,
+    "Population": "1000000",
+    "Link": "Table 1a"
+}, {
+    "Event": "Non-natural' cause - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "26",
+    "Context": "England and Wales",
+    "Period": "2010",
+    "Deaths": 246,
+    "Population": "9500000",
+    "Link": "http://www.ons.gov.uk/ons/rel/vsob1/mortality-statistics--deaths-registered-in-england-and-wales--series-dr-/2010/index.html"
+}, {
+    "Event": "Accidents - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "18",
+    "Context": "England and Wales",
+    "Period": "2011",
+    "Deaths": 172,
+    "Population": "9500000",
+    "Link": ""
+}, {
+    "Event": "Pedestrian accident - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "2",
+    "Context": "England and Wales",
+    "Period": "2012",
+    "Deaths": 21,
+    "Population": "9500000",
+    "Link": ""
+}, {
+    "Event": "Cyclist accident - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "1",
+    "Context": "England and Wales",
+    "Period": "2013",
+    "Deaths": 12,
+    "Population": "9500000",
+    "Link": ""
+}, {
+    "Event": "Car passenger accident - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "2",
+    "Context": "England and Wales",
+    "Period": "2014",
+    "Deaths": 17,
+    "Population": "9500000",
+    "Link": ""
+}, {
+    "Event": "Drowning - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "2",
+    "Context": "England and Wales",
+    "Period": "2015",
+    "Deaths": 22,
+    "Population": "9500000",
+    "Link": ""
+}, {
+    "Event": "Accidental strangulation - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "3",
+    "Context": "England and Wales",
+    "Period": "2016",
+    "Deaths": 27,
+    "Population": "9500000",
+    "Link": ""
+}, {
+    "Event": "Fires - children under 14",
+    "Tags": "Children",
+    "Unit": "year",
+    "Micromorts": "1",
+    "Context": "England and Wales",
+    "Period": "2017",
+    "Deaths": 10,
+    "Population": "9500000",
+    "Link": ""
+}, {
+    "Event": "Car occupant accident",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "0.3",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 405,
+    "Population": "",
+    "Link": "http://www.dft.gov.uk/statistics/releases/road-accidents-and-safety-annual-report-2010"
+}, {
+    "Event": "Goods vehicle occupant",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 62,
+    "Population": "",
+    "Link": "http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Motorcycle accident",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "13.8",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 403,
+    "Population": "",
+    "Link": "https://www.gov.uk/government/publications/reported-road-casualties-great-britain-annual-report-2011"
+}, {
+    "Event": "Pedal cycle accident",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "3.6",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 111,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Pedestrian accident",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "3.7",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 405,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Bus or coach passenger accident",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 9,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Rail passenger accident",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "0.01",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 0,
+    "Population": "",
+    "Link": "??"
+}, {
+    "Event": "Water-craft accident",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Air accident (commercial)",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "0.02",
+    "Context": "US",
+    "Period": "1992-2011",
+    "Deaths": 1631,
+    "Population": "9714",
+    "Link": "Table 5 of http://www.ntsb.gov/data/aviation_stats.html"
+}, {
+    "Event": "Air accident (commercial)",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "0.003",
+    "Context": "US",
+    "Period": "2002-2011",
+    "Deaths": 166,
+    "Population": "5382",
+    "Link": ""
+}, {
+    "Event": "Air accident (small aitcraft)",
+    "Tags": "Transport",
+    "Unit": "mile",
+    "Micromorts": "6.67",
+    "Context": "US",
+    "Period": "",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Car occupant",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0.073",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 405,
+    "Population": "39",
+    "Link": "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0050606         http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Goods vehicle occupant",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 62,
+    "Population": "",
+    "Link": "http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Motorcycle",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "4.278",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 403,
+    "Population": "50",
+    "Link": "http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Pedal cycle",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0.272",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 111,
+    "Population": "12.2",
+    "Link": "http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Pedestrians",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0.096",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 405,
+    "Population": "4.2",
+    "Link": "http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Bus or coach",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 9,
+    "Population": "",
+    "Link": "http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Rail",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0.003",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": 0,
+    "Population": "40",
+    "Link": "http://www.rssb.co.uk/SPR/REPORTS/Pages/Annual-Safety-Performance-Report-2011-2012.aspx"
+}, {
+    "Event": "Water",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Air (commercial)",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0.042",
+    "Context": "US",
+    "Period": "1992-2011",
+    "Deaths": 1631,
+    "Population": "400",
+    "Link": ""
+}, {
+    "Event": "Air (small aitcraft)",
+    "Tags": "Transport",
+    "Unit": "hour",
+    "Micromorts": "0.004",
+    "Context": "",
+    "Period": "",
+    "Deaths": null,
+    "Population": "200",
+    "Link": ""
+}, {
+    "Event": "Anaesthetic accident",
+    "Tags": "Medical",
+    "Unit": "non-emergency operation",
+    "Micromorts": "10",
+    "Context": "UK",
+    "Period": "",
+    "Deaths": null,
+    "Population": "",
+    "Link": "http://www.rcoa.ac.uk/document-store/death-or-brain-damage"
+}, {
+    "Event": "Wo",
+    "Tags": "Medical",
+    "Unit": "births",
+    "Micromorts": "120",
+    "Context": "UK",
+    "Period": "2008",
+    "Deaths": null,
+    "Population": "",
+    "Link": "UN "
+}, {
+    "Event": "Caesarian section",
+    "Tags": "Medical",
+    "Unit": "",
+    "Micromorts": "170",
+    "Context": "E+W",
+    "Period": "",
+    "Deaths": null,
+    "Population": "",
+    "Link": "http://www.rcoa.ac.uk/docs/Risk_14Death.pdf"
+}, {
+    "Event": "Serving in Afghanistan (peak risk period)",
+    "Tags": "Military",
+    "Unit": "day",
+    "Micromorts": "47",
+    "Context": "UK forces",
+    "Period": "18/5/09 to 4/10/09",
+    "Deaths": 60,
+    "Population": "9000 servicemen and women",
+    "Link": "http://www.mrc-bsu.cam.ac.uk/Publications/PDFs/PERIOD_9_10_fatalities_in_Afghanistan_and_Iraq.pdf"
+}, {
+    "Event": "Iraq ",
+    "Tags": "Military",
+    "Unit": "day",
+    "Micromorts": "17",
+    "Context": "US forces",
+    "Period": "2007",
+    "Deaths": 904,
+    "Population": "148000",
+    "Link": "http://icasualties.org/"
+}, {
+    "Event": "Afghanistan",
+    "Tags": "Military",
+    "Unit": "day",
+    "Micromorts": "17",
+    "Context": "US forces",
+    "Period": "2009",
+    "Deaths": 317,
+    "Population": "50700",
+    "Link": "http://icasualties.org/"
+}, {
+    "Event": "Afghanistan",
+    "Tags": "Military",
+    "Unit": "day",
+    "Micromorts": "22",
+    "Context": "US forces",
+    "Period": "2010",
+    "Deaths": 499,
+    "Population": "63500",
+    "Link": "http://www.fas.org/sgp/crs/natsec/R40682.pdf "
+}, {
+    "Event": "Flying in Bomber Command in WW2",
+    "Tags": "Military",
+    "Unit": "mission",
+    "Micromorts": "27,000",
+    "Context": "RAF",
+    "Period": "1939-1945",
+    "Deaths": 55000,
+    "Population": "364,000 missions, average crew 6?",
+    "Link": "http://en.wikipedia.org/wiki/RAF_Bomber_Command"
+}, {
+    "Event": "Scuba diving",
+    "Tags": "Leisure",
+    "Unit": "dive",
+    "Micromorts": "5",
+    "Context": "UK",
+    "Period": "?",
+    "Deaths": null,
+    "Population": "",
+    "Link": "http://www.bsac.com/page.asp?section=3780&sectionTitle=UK+Diving+Fatalities+Review"
+}, {
+    "Event": "Hang-gliding",
+    "Tags": "Leisure",
+    "Unit": "jump",
+    "Micromorts": "8",
+    "Context": "UK",
+    "Period": "?",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Rock climbing",
+    "Tags": "Leisure",
+    "Unit": "climb",
+    "Micromorts": "3",
+    "Context": "UK",
+    "Period": "?",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Skiing",
+    "Tags": "Leisure",
+    "Unit": "day",
+    "Micromorts": "0.7",
+    "Context": "US",
+    "Period": "2008/9",
+    "Deaths": 39,
+    "Population": "57,000,000 days",
+    "Link": "http://www.ski-injury.com/intro"
+}, {
+    "Event": "Skydiving",
+    "Tags": "Leisure",
+    "Unit": "jump",
+    "Micromorts": "7",
+    "Context": "US",
+    "Period": "2008-2012",
+    "Deaths": ,
+    "Population": " ",
+    "Link": "http://www.uspa.org/AboutSkydiving/SkydivingSafety/tabid/526/Default.aspx"
+}, {
+    "Event": "Skydiving",
+    "Tags": "Leisure",
+    "Unit": "jump",
+    "Micromorts": "10",
+    "Context": "UK",
+    "Period": "1992-2011",
+    "Deaths": 46,
+    "Population": "4700000",
+    "Link": "http://www.bpa.org.uk/staysafe/how-safe/"
+}, {
+    "Event": "Running marathon",
+    "Tags": "Leisure",
+    "Unit": "run",
+    "Micromorts": "7",
+    "Context": "US",
+    "Period": "1975-2004",
+    "Deaths": 26,
+    "Population": "3,300,000",
+    "Link": "Kipps C, Sharma S, Pedoe DT. The incidence of exercise-associated hyponatraemia in the London marathon. British Journal of Sports Medicine. 2011 Jan 1;45(1):14 _19"
+}, {
+    "Event": "Base-jumping",
+    "Tags": "Leisure",
+    "Unit": "jump",
+    "Micromorts": "",
+    "Context": "",
+    "Period": "",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Heroin (sole mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "13,410",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 523,
+    "Population": "39",
+    "Link": "Taken from Tables 1,2,3:  King Corkery Human Psychopharmacology: Clinical and Experimental 25,162_166, 2010http://onlinelibrary.wiley.com/doi/10.1002/hup.1090/abstract"
+}, {
+    "Event": "Cocaine and crack (sole mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "74",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 59,
+    "Population": "793",
+    "Link": ""
+}, {
+    "Event": "Amphetamines (sole mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "53",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 22.2,
+    "Population": "417",
+    "Link": ""
+}, {
+    "Event": "Ecstasy (sole mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "52",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 28.2,
+    "Population": "541",
+    "Link": ""
+}, {
+    "Event": "Cannabis (sole mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "0",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 1.4,
+    "Population": "2835",
+    "Link": ""
+}, {
+    "Event": "Heroin (mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "19641",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 766,
+    "Population": "39",
+    "Link": ""
+}, {
+    "Event": "Cocaine and crack (mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "213",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 169,
+    "Population": "793",
+    "Link": ""
+}, {
+    "Event": "Amphetamines (mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "98",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 41,
+    "Population": "417",
+    "Link": ""
+}, {
+    "Event": "Ecstasy (mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "91",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 49,
+    "Population": "541",
+    "Link": ""
+}, {
+    "Event": "Cannabis (mention)",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "6",
+    "Context": "England and Wales",
+    "Period": "2003-2007",
+    "Deaths": 15.6,
+    "Population": "2835",
+    "Link": ""
+}, {
+    "Event": "Heroin last month",
+    "Tags": "Illegal drugs",
+    "Unit": "year",
+    "Micromorts": "8955",
+    "Context": "US",
+    "Period": "2012",
+    "Deaths": 3000,
+    "Population": "335000",
+    "Link": "http://www.samhsa.gov/data/NSDUH/2012SummNatFindDetTables/DetTabs/NSDUH-DetTabsSect1peTabs1to46-2012.htm#Tab1.1A"
+}, {
+    "Event": "cocaine",
+    "Tags": "Illegal drugs",
+    "Unit": "",
+    "Micromorts": "3091",
+    "Context": "US",
+    "Period": "",
+    "Deaths": 5100,
+    "Population": "1650000",
+    "Link": ""
+}, {
+    "Event": "Coal mining accident",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "1190",
+    "Context": "UK",
+    "Period": "1911",
+    "Deaths": 1308,
+    "Population": "1100000",
+    "Link": ""
+}, {
+    "Event": "Coal mining",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "430",
+    "Context": "UK",
+    "Period": "2006-2010",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "All occupations",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "6",
+    "Context": "UK",
+    "Period": "2010",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "All occupations",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "160",
+    "Context": "all world",
+    "Period": "",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Commercial fishing",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "1020",
+    "Context": "UK",
+    "Period": "1996-2005",
+    "Deaths": 160,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Health Safety Exec",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "1000",
+    "Context": "Unacceptable occupatinal risk'",
+    "Period": "",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "Logging",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "1280",
+    "Context": "US",
+    "Period": "2012",
+    "Deaths": null,
+    "Population": "",
+    "Link": "Bureau of Labor Statistics. Census of Fatal Occupational Injuries (CFOI) - Current and Revised Data [Internet]. [cited 2012 Nov 23]. Available from: http://www.bls.gov/iif/oshcfoi1.htm"
+}, {
+    "Event": "Fisheries",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "1100",
+    "Context": "US",
+    "Period": "2012",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}, {
+    "Event": "All occupations",
+    "Tags": "Occupations",
+    "Unit": "year",
+    "Micromorts": "",
+    "Context": "US",
+    "Period": "2012",
+    "Deaths": null,
+    "Population": "",
+    "Link": ""
+}]
