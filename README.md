@@ -2,7 +2,7 @@ Microspecs
 ==========
 
 - needs a better title
-- work in progress on a micromort/microlife viewer
+- work in progress on a umort/ulife viewer
 
 To view
 ```
