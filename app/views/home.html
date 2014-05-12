@@ -1,4 +1,4 @@
-<table class="table table-hover table-condensed">
+<table class="table table-hover">
   <thead>
     <tr>
       <th>Event</th>
@@ -8,11 +8,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="line in lines">
-      <td>{{line.Event}}</td>
-      <td>{{line.Tags}}</td>
-      <td>{{line.Unit}}</td>
-      <td>{{line.Micromorts}}</td>
+    <tr class="selected">
+      <td>{{selectedRow.Event}}</td>
+      <td>{{selectedRow.Tags}}</td>
+      <td>{{selectedRow.Unit}}</td>
+      <td>{{selectedRow.Micromorts}}</td>
+    </tr>
+    <tr ng-repeat="row in rows" ng-click="selectRow(row, $index)" ng-class="selected(row)">
+      <td>{{row.Event}}</td>
+      <td>{{row.Tags}}</td>
+      <td>{{row.Unit}}</td>
+      <td>{{row.Micromorts}}</td>
     </tr>
   </tbody>
 </table>
