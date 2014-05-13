@@ -12,7 +12,7 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
     controller: 'microControl'
 
 .controller 'microControl', <[$scope $http]> ++ ($scope, $http) ->
-  csvFile = 'MM-for-calculator.csv'
+  csvFile = 'mumorts.csv'
 
   selectedIndex = 0
 
@@ -21,18 +21,22 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
     if selectedIndex >= 0
       $scope.rows[selectedIndex].selected = ""
     selectedIndex := index
-    row.selected = "selected"
+    row.selected = "active"
     $scope.selectedRow = row
 
   $scope.selected = (row) -> row.selected
 
   # read and validate a row of data
   readAndValidate = (row) ->
-    row.Micromorts = parseInt (row.Micromorts.split ',') * ''
+    mumorts = parseFloat (row.Micromorts.split ',') * ''
     row.valid = row.Event != "" and
                 row.Tags != "" and
                 row.Unit != "" and
-                !isNaN row.Micromorts
+                !isNaN mumorts
+    if row.valid
+      row.Micromorts = mumorts
+    else
+      console.debug row
     return row
 
   # Read in and parse data
@@ -45,4 +49,4 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
       $scope.$digest!
       console.log $scope.rows
     else
-      console.log 'Error #{err} reading #{csvFile}'
+      console.log "Error #{err} reading #{csvFile}"
