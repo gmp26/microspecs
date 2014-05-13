@@ -15,11 +15,13 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
   csvFile = 'mumorts.csv'
 
   selectedIndex = 0
+  tag = ""
+  timeUnits = <[second minute hour day week month year]>
+  distanceUnits = <[foot yard furlong mile]>
 
   $scope.selectRow = (row, index) ->
-    console.log row.Event
-    if selectedIndex >= 0
-      $scope.rows[selectedIndex].selected = ""
+    console.log row.deathFrom
+    $scope.rows[selectedIndex].selected = ""
     selectedIndex := index
     row.selected = "active"
     $scope.selectedRow = row
@@ -28,13 +30,31 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
 
   # read and validate a row of data
   readAndValidate = (row) ->
-    mumorts = parseFloat (row.Micromorts.split ',') * ''
-    row.valid = row.Event != "" and
-                row.Tags != "" and
-                row.Unit != "" and
-                !isNaN mumorts
+    mumorts = parseFloat (row.micromorts.split ',') * ''
+    units = parseFloat row.units
+    row.valid = row.deathFrom != "" and
+                row.unit != "" and
+                !isNaN mumorts and
+                !isNaN units
+    if row.units == "" and
+    row.unit == "" and
+    row.context == "" and
+    row.micromorts == "" and
+    row.period == "" and
+    row.deaths == "" and
+    row.population == "" and
+    row.ref == ""
+      if row.deathFrom != ""
+        tag := row.deathFrom
+      row.ignore = true
+      row.displayedUnits = ""
+    else
+      row.displayedUnits = "#{row.units} #{row.unit}"
+      row.ignore = false
+
+    row.tag = tag
     if row.valid
-      row.Micromorts = mumorts
+      row.micromorts = mumorts
     else
       console.debug row
     return row
@@ -44,8 +64,8 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
   .row readAndValidate
   .get (err, rows) ->
     if !err
-      $scope.rows = rows.filter (row, index)->row.valid
-      $scope.selectedRow = $scope.rows[selectedIndex]
+      $scope.rows = rows.filter (row, index)->!row.ignore
+      # $scope.selectedRow = $scope.rows[selectedIndex]
       $scope.$digest!
       console.log $scope.rows
     else
