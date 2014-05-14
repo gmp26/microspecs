@@ -1,24 +1,16 @@
 <table class="table table-hover">
   <thead>
     <tr>
-      <th>deathFrom</th>
-      <th>type</th>
-      <th>unit</th>
-      <th>micromorts</th>
+      <th>{{row2.deathFrom}}</th>
+      <th>{{row2.unit}}</th>
+      <th>{{row2.micromorts}}</th>
     </tr>
   </thead>
   <tbody>
-<!--     <tr class="selected">
-      <td>{{selectedRow.deathFrom}}</td>
-      <td>{{selectedRow.tag}}</td>
-      <td>{{selectedRow.unit}}</td>
-      <td>{{selectedRow.micromorts}}</td>
-    </tr> -->
-    <tr ng-repeat="row in rows" ng-click="selectRow(row, $index)" ng-class="selected(row)">
+    <tr ng-repeat="row in rows" ng-click="selectRow(row, $index)" ng-if="!row.titles" ng-class="getClass(row)">
       <td>{{row.deathFrom}}</td>
-      <td>{{row.tag}}</td>
-      <td>{{row.displayedUnits}}</td>
-      <td>{{row.micromorts}}</td>
+      <td>{{row.displayedUnits()}}</td>
+      <td>{{row.displayedMicromorts()}}</td>
     </tr>
   </tbody>
 </table>
