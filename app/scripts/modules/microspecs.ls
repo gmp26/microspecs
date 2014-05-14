@@ -36,6 +36,8 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
                 row.unit != "" and
                 !isNaN mumorts and
                 !isNaN units
+
+    # ignore empty lines, but use lines with sole content in column A (deathFrom) as group titles 
     if row.units == "" and
     row.unit == "" and
     row.context == "" and
@@ -49,6 +51,7 @@ angular.module 'microspecs' <[ui.router ui.bootstrap templates]>
       row.ignore = true
       row.displayedUnits = ""
     else
+      row.units = 1
       row.displayedUnits = "#{row.units} #{row.unit}"
       row.ignore = false
 
